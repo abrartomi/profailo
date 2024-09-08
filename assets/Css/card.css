@@ -1,0 +1,43 @@
+
+.blogpost_card{
+    display:flex;
+    gap:8px;
+    flex-wrap: wrap;
+    width: 100%;   
+}
+.card{
+    display: flex;
+    flex : 1 0 140px;
+    flex-direction: column;
+    align-items: center;
+    border: 1px grey solid;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 15px;
+ }
+ button a{
+    text-decoration: none;
+    color: aliceblue;
+ }
+ img{
+     width: 100%;
+ }
+ h4{
+    text-decoration: none;
+    margin: 0; 
+ }

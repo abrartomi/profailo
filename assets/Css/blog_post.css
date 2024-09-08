@@ -1,0 +1,123 @@
+h1{
+    font-weight: bold;
+}
+.avatar {
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    
+}
+.info{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+    border-left: 5px solid grey;
+    
+}
+.bio{
+    width:50%
+}
+.posts{
+    width:100%;
+    margin-top: 20px;
+    display:grid;
+    gap:20px;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%; 
+    align-items: center;
+    
+}
+@media(max-width:768px){
+    .posts{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    flex-basis: 200;
+    height: auto;
+    border: 1px solid gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.post img{
+    width: 100%;
+    height: 40%;
+}
+figcaption{
+    font-size: 15px;
+    padding: 5px;
+}
+h3{
+   padding-left: 20px;
+   padding-right: 20px;
+    
+}
+.post p{
+    padding: 15px;
+
+}
+.SocialSharing{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+    background-color: rgb(241, 197, 160);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    border-bottom: 5px solid grey;
+}
+.SocialSharing a{
+    text-decoration: none;
+    color: rgb(8, 8, 8);
+}
+.skill{
+        width: 90%;
+        background-color: #ddd;
+        margin: 5px;
+        
+}
+.skills h3,p{
+    color :black;
+    text-align: left;
+    margin-bottom: 2px;
+    text-decoration: none;
+    padding: 5px;
+
+}
+.skills {
+    text-align: right;
+    color: white;
+    background-color: rgb(218, 235, 171);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    border-right: 5px solid grey;
+    
+  }
+  .html{
+    width:90%;
+    background-color: #808080;
+  }
+  .css{
+    width:75%;
+    background-color: #808080;
+  }
+  .JavaScript{
+    width:50%;
+    background-color: #808080;
+  }
+
